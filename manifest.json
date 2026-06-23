@@ -1,0 +1,9 @@
+{
+  "name": "교육참가 출석확인",
+  "short_name": "출석확인",
+  "start_url": "checkin.html",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#214f42",
+  "orientation": "portrait"
+}
