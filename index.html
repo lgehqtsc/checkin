@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>[PRI]교육참가 확인 페이지</title>
+
+<!-- ===== 홈 화면 추가 시 주소표시줄 없이 실행되도록 하는 설정 ===== -->
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="출석확인">
+<meta name="theme-color" content="#214f42">
+<!-- ============================================================ -->
 <style>
   :root{
     --ink:#1d2b26;
@@ -434,7 +443,7 @@
       overlay.classList.remove('show');
       submitting = false;
       submitBtn.disabled = false;
-    }, 500);
+    }, 300);
   });
 
   // ===== 전체화면 토글 =====
